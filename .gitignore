@@ -1,0 +1,32 @@
+# C++
+*.o
+*.lo
+*.la
+*.slo
+*.so
+*.a
+*.dll
+*.exe
+
+# Qt
+*.pro.user*
+*.pro.shared
+*.qbs.user*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile*
+object_script.*
+*_plugin_import.cpp
+
+# Build directories
+debug/
+release/
+build/
+build-*/
+
+# Other
+.DS_Store
+Thumbs.db
